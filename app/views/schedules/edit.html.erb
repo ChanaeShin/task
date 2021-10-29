@@ -23,13 +23,15 @@
         <tr>
           <th><%= f.label :all_day,"終日" %></th>
           <td><%= f.check_box :'all_day', {}, true, false %>
-            <br>終日の場合はチェックを入れます
-          
+           <br>終日の場合はチェックを入れます</td>
         </tr>
         
         <tr>
           <th><%= f.label :memo,"スケジュールメモ" %></th>
-          <td><%= f.text_area :memo %></td>
+          <td>
+            <textarea class="posts-content" name="post[memo]" id="post_memo"></textarea>
+            
+          </td>
         </tr>
       </table>
  
@@ -43,3 +45,5 @@
 </form>
   </div>
   <% end %>
+  
+  

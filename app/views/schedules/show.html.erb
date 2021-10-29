@@ -26,6 +26,9 @@
 
 <ul>
     <li><%= link_to "スケジュール一覧に戻る", :schedules %></li>
-    
+    <li><%= link_to "スケジュールを編集する", [:edit, @schedule] %></li>
+    <li><%= link_to "スケジュールを削除",@schedule, method: :delete, data: { confirm: "本当に削除しますか？" } %></li>
 </ul>
   </div>
+  
+  

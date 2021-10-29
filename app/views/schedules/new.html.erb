@@ -5,6 +5,7 @@
   <%= form_with model: @schedules do |f| %>
 
       <table>
+        <tbody>
         <tr>
           <th><%= f.label :title ,"タイトル" %></th>
           <td><%= f.text_field :title %></td>
@@ -24,13 +25,13 @@
           <th><%= f.label :all_day,"終日" %></th>
           <td><%= f.check_box :'all_day', {}, true, false %>
            <br>終日の場合はチェックを入れます</td>
-          
         </tr>
         
         <tr>
           <th><%= f.label :memo,"スケジュールメモ" %></th>
-          <td><%= f.text_area :memo %></td>
+          <td><textarea class="posts-content" name="post[memo]" id="post_memo"></textarea></td>
         </tr>
+        </tbody>
       </table>
  
       <div>

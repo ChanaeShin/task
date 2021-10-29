@@ -1,3 +1,18 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+
 header, footer {
     width: 100%;
     padding: 10px;
@@ -19,9 +34,7 @@ footer {
     display: block;
 }
 
-table {
-    border-collapse: collapse;
-}
+
 
 table {
     display: table;
@@ -32,17 +45,16 @@ table {
     border-color: grey;
 }
 
-table {
-    border-collapse: collapse;
-}
-
-
 thead {
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
 }
 
+table td {
+    background-color: #f1c8c861;
+    text-align: center;
+}
 
 tr {
     display: table-row;
@@ -50,20 +62,17 @@ tr {
     border-color: inherit;
 }
 
-table {
-    border-collapse: separate;
-    text-indent: initial;
-    border-spacing: 2px;
-}
-
 table th {
     background-color: #ffdfdf;
 }
 
+
 table th, table td {
-    border: solid 1px black;
+    border: solid 1px  black;
     padding: 10px 20px;
 }
+
+
 
 th {
     display: table-cell;
@@ -76,4 +85,49 @@ tbody {
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
+}
+
+input, pre {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.posts-content {
+    width: 350px;
+    height: 200px;
+    font-size: 16px;
+}
+
+input {
+    width: auto;
+}
+
+
+
+.notice{
+    background-color: #ec98ac8f;
+    border: 2px
+   solid #ec7592;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+input, pre {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    width: auto;
 }
