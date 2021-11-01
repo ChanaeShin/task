@@ -2,7 +2,8 @@
 
 </div>
     <table> 
-    <tbody><tr>
+    <tbody>
+    <tr>
         <th>タイトル</th>
         <td><%= @schedule.title %></td>
     </tr>
@@ -22,8 +23,8 @@
         <th>スケジュールメモ</th>
         <td><%= @schedule.memo %></td>
     </tr>
-</tbody></table>
-
+　　</tbody>
+　　</table>
 <ul>
     <li><%= link_to "スケジュール一覧に戻る", :schedules %></li>
     <li><%= link_to "スケジュールを編集する", [:edit, @schedule] %></li>
