@@ -22,8 +22,7 @@
  
         <tr>
           <th><%= f.label :all_day,"終日" %></th>
-          <td><%= f.check_box :'all_day', {}, true, false %>
-           <br>終日の場合はチェックを入れます</td>
+          <td><%= f.check_box :'all_day' %></td>
         </tr>
         
         <tr>
@@ -38,8 +37,7 @@
       <div>
         <ul>
             <li><%= f.submit "スケジュールの編集を完了する" %></li>
-            
-            <li><%= link_to("スケジュール一覧に戻る","/schedules/index") %></li>
+            <li><%= link_to("スケジュール一覧に戻る", "/schedules/index") %></li>
         </ul>
     </div>
 </form>

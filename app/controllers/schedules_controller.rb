@@ -2,12 +2,10 @@ class SchedulesController < ApplicationController
   
   def index
     @schedules = Schedule.all
-   
   end
   
   def new
     @schedules = Schedule.new
-   
   end
  
   def create
@@ -26,14 +24,13 @@ class SchedulesController < ApplicationController
 
   def edit
     @schedule = Schedule.find(params[:id])
-    binding.pry
   end
  
   def update
     @schedule = Schedule.find(params[:id])
       if @schedule.update(params.require(:schedule).permit(:title, :start_at, :end_at, :all_day, :memo))
         flash[:notice] = "スケジュールを更新しました"
-        
+        redirect_to :schedules
       else
         render "edit"
       end

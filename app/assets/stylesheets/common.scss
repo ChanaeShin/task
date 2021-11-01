@@ -35,7 +35,6 @@ footer {
 }
 
 
-
 table {
     display: table;
     border-collapse: separate;
@@ -99,12 +98,6 @@ input, pre {
     font-size: 16px;
 }
 
-input {
-    width: auto;
-}
-
-
-
 .notice{
     background-color: #ec98ac8f;
     border: 2px
@@ -116,17 +109,7 @@ table {
 }
 
 
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
 
-input, pre {
-    width: 100%;
-    padding: 5px;
-    font-size: 16px;
-}
 
 input[type=submit] {
     width: auto;

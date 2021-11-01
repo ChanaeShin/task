@@ -30,10 +30,10 @@
         <td><%= schedule.end_at %></td>
         <td><% schedule.all_day %>
             <% if schedule.all_day == true %>
-　　　　　  ○
-　　　　　  <% else schedule.all_day == false %>
-             
-　　　　　  <% end %>
+            ○
+            <% else %>
+
+            <% end %>
 　　　　　  </td>
         <td><%= schedule.updated_at.to_s(:datetime_jp) %></td>
         <td><%= link_to "確認", schedule %></td>
