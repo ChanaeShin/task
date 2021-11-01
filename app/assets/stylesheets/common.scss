@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+header, footer {
+    width: 100%;
+    padding: 10px;
+    background: #c52f24;
+    color: #fff;
+    margin: 0px;
+}
+
+header {
+    display: block;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+footer {
+    display: block;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table td {
+    background-color: #f1c8c861;
+    text-align: center;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table th {
+    background-color: #ffdfdf;
+}
+
+table th, table td {
+    border: solid 1px  black;
+    padding: 10px 20px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+input, pre {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.posts-content {
+    width: 350px;
+    height: 200px;
+    font-size: 16px;
+}
+
+.notice{
+    background-color: #ec98ac8f;
+    border: 2px
+   solid #ec7592;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+input[type=text_area] {
+    width: 350px;
+    height: 200px;
+    font-size: 16px;
+}
